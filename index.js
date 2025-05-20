@@ -4,8 +4,6 @@ const firebaseConfig = {}
 
 const app = initializeApp(firebaseConfig)
 
-console.log(app)
-
 let myLeads = []
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
